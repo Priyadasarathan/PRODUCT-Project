@@ -1,4 +1,48 @@
 .App {
+  /* text-align: center; */
+  /* display: flex; 
+  content: wrap; */
+  background-color: rgb(224, 216, 207);
+
+
+}
+
+.products {
+  display: inline-block;
+  width: 50%;
+  /* content:inherit; */
+}
+
+.products img {
+  text-align: center;
+}
+
+.products h3 {
+  width: 50%;
+  text-align: left;
+}
+
+.products p {
+  width: 60%;
+  text-align: left;
+  color: gray;
+  justify-content: center;
+}
+
+.products button {
+  padding: 20px;
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  width: 40%;
+}
+.cart{
+  margin-left: 40%;
+ margin-top: -20%;
+}
+input{
+  width: 10%;
   text-align: center;
 }
 
@@ -32,6 +76,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
